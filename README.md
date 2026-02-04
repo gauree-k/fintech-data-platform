@@ -4,7 +4,7 @@ An evolving fintech data platform designed to explore scalable data modeling, re
 **Why this project exists**
 Modern data platforms are not just about moving data from point A to point B. They require careful consideration of data modeling, correctness, rerunnability, monitoring, and long-term maintainability.
 
-**This project exists to:**__
+**This project exists to:**
 Practice designing clear and scalable data models
 Implement reliable ingestion patterns that are safe to rerun
 Understand incremental processing and data evolution
