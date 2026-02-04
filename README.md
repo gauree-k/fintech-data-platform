@@ -42,3 +42,18 @@ At a high level, the platform follows a layered architecture:
 4. **Metadata and operations layer**  
    Tables and logs used to track pipeline runs, data quality, and system health (added in later versions).
 
+## Run locally
+
+### Prerequisites
+- Docker Desktop
+- Python 3.10+
+
+### Setup
+```bash
+docker compose up -d
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
+
+
